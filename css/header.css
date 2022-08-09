@@ -1,0 +1,15 @@
+.header {
+    color: #FFEC2D;
+    background-color: #00ABC2;
+    text-align: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag-map_of_Kazakhstan_%28precise_boundaries%29.svg/1400px-Flag-map_of_Kazakhstan_%28precise_boundaries%29.svg.png);
+    background-size: 120px 60px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 10px 0px;
+}
+
+.header__pageTitle {
+    margin-top: 10px;
+    padding: 20px;
+}

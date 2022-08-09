@@ -1,0 +1,27 @@
+.navigation {
+    background-color: #00abc243;
+}
+
+.navigation__unorderedList {
+    list-style-type: none;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__link:visited {
+    color: black;
+}
+
+.navigation__link:hover {
+    color: #342dff;
+    border-bottom: 1px solid;
+}
+
+.navigation__link:active {
+    background-color: #00ABC2;
+}

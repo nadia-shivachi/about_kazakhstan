@@ -1,0 +1,24 @@
+.table {
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.table__cell {
+    border: 1px solid #00ABC2;
+    padding: 7px;
+    text-align: center;
+}
+
+.table__cell--header {
+    background-color: #00abc252;
+}
+
+.table__row:hover {
+    background: #83ceda33;
+}
+
+.table__caption {
+    font-style: italic;
+    text-align: right;
+    caption-side: bottom;
+}

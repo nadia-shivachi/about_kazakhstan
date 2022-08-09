@@ -1,0 +1,33 @@
+.footer {
+    color: #FFEC2D;
+    background-color: #00ABC2;
+    text-align: center;
+}
+
+.footer__heading {
+    font-size: 25px;
+}
+
+.footer__unorderedList {
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 2.5;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__link:visited {
+    color: black;
+}
+
+.footer__link:hover {
+    color: #2d3bff;
+    border-bottom: 1px solid;
+}
+
+.footer__link:active {
+    background-color: #FFEC2D;
+}

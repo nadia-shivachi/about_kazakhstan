@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Vollkorn', serif;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5;
+    background-color: #797c7c20;
+}

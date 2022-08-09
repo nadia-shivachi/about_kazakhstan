@@ -1,0 +1,26 @@
+.section__heading {
+    color: #00ABC2;
+    background-color: #FFEC2D;
+    text-align: center;
+}
+
+.section__image {
+    box-shadow: 5px -6px 9px 1px #7A8281;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.section__button {
+    border: solid;
+    background-color: rgba(176, 210, 41, 0.274);
+    border-radius: 20px;
+    line-height: 30px;
+}
+
+.section__button:hover {
+    line-height: 50px;
+    background-color: #FFEC2D
+}
