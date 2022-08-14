@@ -15,7 +15,10 @@
           : "Stolicą jest miasto Nur-Sultan;";
     });
   };
+  const init = () => {
+    welcome();
+    toggleButtonText();
+  };
 
-  welcome();
-  toggleButtonText();
+  init();
 }
