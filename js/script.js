@@ -1,12 +1,21 @@
-console.log("Hej! Tu jest podstawowe info o Kazachstanie, mojej ojczyźnie.");
+{
+  const welcome = () => {
+    console.log(
+      "Hej! Tu jest podstawowe info o Kazachstanie, mojej ojczyźnie."
+    );
+  };
 
-let button = document.querySelector(".js-section__button");
+  const toggleButtonText = () => {
+    const button = document.querySelector(".js-section__button");
 
-button.addEventListener("click", () => {
-    if (button.innerText === "Stolicą jest miasto Nur-Sultan;") {
-        button.innerText = "Miejscowi wolą nazwę 'Astana'!";
-    }
-    else {
-        button.innerText = "Stolicą jest miasto Nur-Sultan;"
-    }
-})
+    button.addEventListener("click", () => {
+      button.innerText =
+        button.innerText === "Stolicą jest miasto Nur-Sultan;"
+          ? "Miejscowi wolą nazwę 'Astana'!"
+          : "Stolicą jest miasto Nur-Sultan;";
+    });
+  };
+
+  welcome();
+  toggleButtonText();
+}
