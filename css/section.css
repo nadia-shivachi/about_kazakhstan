@@ -1,26 +1,85 @@
 .section__heading {
-    color: #00ABC2;
-    background-color: #FFEC2D;
-    text-align: center;
+  color: #00abc2;
+  background-color: #ffec2d;
+  text-align: center;
 }
 
 .section__image {
-    box-shadow: 5px -6px 9px 1px #7A8281;
-    border-radius: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+  box-shadow: 5px -6px 9px 1px #7a8281;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
 .section__button {
-    border: solid;
-    background-color: rgba(176, 210, 41, 0.274);
-    border-radius: 20px;
-    line-height: 30px;
+  border: solid;
+  background-color: rgba(176, 210, 41, 0.274);
+  border-radius: 20px;
+  line-height: 30px;
+  cursor: pointer;
 }
 
 .section__button:hover {
-    line-height: 50px;
-    background-color: #FFEC2D
+  line-height: 50px;
+  background-color: #ffec2d;
+}
+
+.card {
+  position: relative;
+  margin: 10px 50px;
+  height: 600px;
+  width: 50%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  background-image: url("https://ntr.city/upload/iblock/d14/ji63vvbeg47644a24dhdgrcnx99m89d4/kazakhstan1.jpg");
+}
+
+.card__button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: aqua;
+  font-size: 26px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  cursor: crosshair;
+  z-index: 10;
+}
+
+.card__button:hover ~ .card__text {
+  clip-path: circle(110% at 50% 90%);
+}
+
+.card__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  right: 80px 30px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: beige;
+  clip-path: circle(0 at 50% 90%);
+  transition: clip-path 0.5s;
+  font-size: 62.5%;
+}
+
+.card__title {
+  color: rgb(200, 200, 82);
+}
+
+.card__info {
+  text-decoration: underline;
 }
